@@ -1,4 +1,4 @@
-# Day 3: Understanding Permissions 🔐
+# Day 3: Understanding Permissions 
 
 ## 🚩 Objectives
 - Learn how Linux file and directory permissions work.
