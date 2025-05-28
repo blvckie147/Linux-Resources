@@ -1,4 +1,4 @@
-# Day 2: File Management 🗃️
+# Day 2: File Management 🗃
 
 ## 🚩 Objectives
 - Learn how to create, copy, move, and delete files and directories.
