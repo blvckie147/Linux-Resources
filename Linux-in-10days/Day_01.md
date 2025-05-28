@@ -1,4 +1,4 @@
-# 📁 Day 1: Navigating the Filesystem
+#  Day 1: Navigating the Filesystem
 
 Welcome to your first deep dive into Linux! Today, you’ll explore the filesystem and start building muscle memory for moving around with commands. It's like learning how to walk in the Linux universe. 👣
 
