@@ -16,7 +16,7 @@ step (optional): The amount to increment each time.
 
 You cannot use variables inside the {} range expression. The values must be hardcoded.
 For example, this will not work:
-# Syntax
+# Syntax #
 !#/bin/bash
 start=1
 end=5
