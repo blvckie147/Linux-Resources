@@ -22,7 +22,7 @@ Cheat sheets and references for mastering Linux commands:
 - Advanced usage with `awk`, `sed`, `grep`, etc.
 - Links to online explainers like Explainshell and SS64
 
-###  `shell/`
+###  `bash/`
 Guides and tutorials for:
 - Bash and Zsh scripting
 - Automation tips
