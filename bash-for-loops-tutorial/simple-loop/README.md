@@ -10,3 +10,30 @@ This folder explains the basic **simple for loop** in Bash. It is ideal for loop
 for variable in list; do
   # commands
 done
+
+-list: A series of space-separated values.
+
+-variable: Temporarily holds each value during each loop iteration.
+
+Examples
+
+# Example 1: Loop over words
+for item in red green blue; do
+  echo "Color: $item"
+done
+
+
+# Example 2: Loop over filenames
+for file in file1.txt file2.txt file3.txt; do
+  echo "Processing $file"
+done
+
+# Use Cases
+- Iterating over filenames or extensions
+- Automating small tasks (e.g., batch renaming, copying)
+- Looping through static options (yes/no, prod/dev/test)
+
+How to Run
+Make the script executable:
+chmod +x example.sh
+./example.sh
