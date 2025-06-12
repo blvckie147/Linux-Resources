@@ -17,6 +17,7 @@ step (optional): The amount to increment each time.
 You cannot use variables inside the {} range expression. The values must be hardcoded.
 For example, this will not work:
 
+!#/bin/bash
 start=1
 end=5
 for i in {$start..$end}; do
@@ -24,9 +25,11 @@ for i in {$start..$end}; do
 done
 
 This will output:
+!#/bin/bash
 $start..$end
 
 To use variables in a range, use a C-style loop instead:
+!#/bin/bash
 start=1
 end=5
 for (( i=start; i<=end; i++ )); do
@@ -35,11 +38,13 @@ done
 
 # Examples
 Example 1: Numeric Range
+!#/bin/bash
 for i in {1..5}; do
   echo "Number: $i"
 done
 
 Example 2: Numeric Range with Step
+!#/bin/bash
 for i in {1..10..2}; do
   echo "Step: $i"
 done
