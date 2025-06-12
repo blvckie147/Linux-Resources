@@ -10,7 +10,7 @@ Maintained by **blvckie147**, this repo serves as a centralized knowledge base t
 
 This repository is divided into several directories to streamline access to focused Linux topics:
 
-### 🔧 `env/`
+###  `env/`
 Resources for setting up and customizing your development environment, including:
 - Shell configuration
 - Vim/Neovim
