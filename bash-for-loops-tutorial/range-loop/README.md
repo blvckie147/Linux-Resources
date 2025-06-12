@@ -16,48 +16,52 @@ step (optional): The amount to increment each time.
 
 You cannot use variables inside the {} range expression. The values must be hardcoded.
 For example, this will not work:
-# Syntax #
-!#/bin/bash
+```bash
 start=1
 end=5
 for i in {$start..$end}; do
   echo $i
 done
-
+```
 This will output:
-# Syntax
+```bash
 !#/bin/bash
 $start..$end
+```
 
 To use variables in a range, use a C-style loop instead:
-# Syntax
+```bash
 !#/bin/bash
 start=1
 end=5
 for (( i=start; i<=end; i++ )); do
   echo $i
 done
+```
 
 # Examples
 Example 1: Numeric Range
-# Syntax
+```bash
 !#/bin/bash
 for i in {1..5}; do
   echo "Number: $i"
 done
+```
 
 Example 2: Numeric Range with Step
-# Syntax
+```bash
 !#/bin/bash
 for i in {1..10..2}; do
   echo "Step: $i"
 done
+```
 
 Example 3: Alphabetical Range
-# Syntax
+```bash
 for letter in {a..e}; do
   echo "Letter: $letter"
 done
+```
 
 # Use Cases
 - Printing a fixed set of numbers or letters.
@@ -66,16 +70,17 @@ done
 
 # How to Run
 Make sure the script file is executable:
-# Syntax
+```bash
 chmod +x example.sh
 ./example.sh
+```
 
 ###  Syntax
 
 ```bash
 for variable in {start..end[..step]}; do
   # commands to execute
-
+```
 
 
 
