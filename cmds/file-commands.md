@@ -16,19 +16,20 @@ Copies files or directories.
 ## mv
 ```
 mv file.txt archive/
-Moves or renames a file.
 ```
+Moves or renames a file.
+
 
 ## rm
 ```
 rm file.txt
 rm -rf folder/
-Removes files or directories.
 ```
+Removes files or directories.
 
 ## mkdir
 ```
 mkdir -p /tmp/project/folder
-Creates directories, even nested ones.
 ```
+Creates directories, even nested ones.
 
