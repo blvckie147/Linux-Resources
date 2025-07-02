@@ -41,6 +41,32 @@
      - Creates subdirectories for each file extension found
      - Moves files into appropriate subdirectories
    - Use file globbing and conditional statements
+  ```bash
+   #!/bin/bash
+
+# Folder to organize - Change this to your test folder
+TARGET_DIR="/home/yourusername/testfiles"
+
+# Change to the target directory
+cd "$TARGET_DIR" || { echo "Directory not found!"; exit 1; }
+
+# Loop through files in the folder
+for file in *.*; do
+  # Skip if it's a folder or not a regular file
+  [ -f "$file" ] || continue
+
+  # Get the file extension (everything after the last dot)
+  ext="${file##*.}"
+
+  # Create a folder for that extension if it doesn't exist
+  mkdir -p "$ext"
+
+  # Move the file into that folder
+  mv "$file" "$ext/"
+done
+
+echo "Files organized by extension!"
+```
 
 ## Advanced
 
